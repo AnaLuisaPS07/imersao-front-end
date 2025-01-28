@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(115, 27, 177);
+    color: #ffffff;
+}
+
+strong {
+    color: #22d4fd;
+}
+
+h1 {
+    color: #ffffff;
+    font-weight: bold;  /* (Texto em negrito) */
+}
+
+p {
+
+    color: #ffffff;
+
+}
+
+footer {
+    background-color: gray; 
+    color: white;
+
+}
+
+span{
+    color: #22D4FD;
+    border: 1px solid #22D4FD; /* (Borda com 1 px de largura, do tipo sólida e cor da borda azul) */
+    padding: 10px; /* (Espaçamento interno de 10px) */
+}
