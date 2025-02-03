@@ -41,6 +41,48 @@
       "name": "Caetano Veloso",
       "genre": "MPB",
       "urlImg": "https://i.scdn.co/image/ab67616100005174e98de50f36cf1aa4bf047757"
+    },
+    {
+      "id": 8,
+      "name": "Led Zeppelin",
+      "genre": "Rock",
+      "urlImg": "https://i.scdn.co/image/ab67616100005174d4f3e1e4c7a5b0b7b7f2d40f"
+    },
+    {
+      "id": 9,
+      "name": "Beyoncé",
+      "genre": "Pop",
+      "urlImg": "https://i.scdn.co/image/ab676161000051749d998450907b7a4d78db0d24"
+    },
+    {
+      "id": 10,
+      "name": "Kendrick Lamar",
+      "genre": "Hip Hop",
+      "urlImg": "https://i.scdn.co/image/ab6761610000517412c3ad9148e1a5c9e40b62cc"
+    },
+    {
+      "id": 11,
+      "name": "Zezé Di Camargo & Luciano",
+      "genre": "Sertanejo",
+      "urlImg": "https://i.scdn.co/image/ab67616100005174f6c7adf88c2b7d7e6f1a5c32"
+    },
+    {
+      "id": 12,
+      "name": "Anitta",
+      "genre": "Funk",
+      "urlImg": "https://i.scdn.co/image/ab67616100005174a2b97e7f1b8d7e6c3f1a5c33"
+    },
+    {
+      "id": 13,
+      "name": "Zeca Pagodinho",
+      "genre": "Samba",
+      "urlImg": "https://i.scdn.co/image/ab6761610000517487f1a5c3b7d7e6f2c3f1a5c3"
+    },
+    {
+      "id": 14,
+      "name": "Gilberto Gil",
+      "genre": "MPB",
+      "urlImg": "https://i.scdn.co/image/ab676161000051742a3c1d9e5d6b2a7f7f3e1e9c"
     }
   ]
 }
