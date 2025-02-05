@@ -101,8 +101,14 @@
   border: 2px solid black; /* Adiciona um contorno preto */
   background: linear-gradient(to right, #f0886f, #efccb1); /* Gradiente para o botão */
   cursor: pointer;
+  transition: background 0.3s ease, color 0.3s ease; /* Transição suave para o efeito hover */
 }
 
+.header__login .login:hover {
+  background: linear-gradient(to right, #efccb1, #f0886f); /* Gradiente invertido no hover */
+  color: #fff; /* Cor do texto no hover */
+}
+ 
 /* PLAYLIST */
 .playlist__content {
   height: 68vh;
@@ -163,8 +169,8 @@
 
 .cards {
   position: relative;
-  width: 210px;
-  height: 170px;
+  width: 232px;
+  height: 190px;
   overflow: hidden;
   border-radius: 8px;
 }

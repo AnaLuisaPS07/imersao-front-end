@@ -152,9 +152,14 @@ h1 {
     text-transform: none;
     padding: 10px;
     margin-top: 12px;
-    
     width: 113px;
     cursor: pointer;
+    transition: background 0.3s ease, color 0.3s ease; /* Transição suave para o efeito hover */
+}
+
+.section-playlist__content .button:hover {
+  background: linear-gradient(to right, #efccb1, #f0886f); /* Gradiente invertido no hover */
+  color: #fff; /* Cor do texto no hover */
 }
 
 .sidebar .cookies {
@@ -194,6 +199,7 @@ h1 {
     padding: 15px 40px;
     display: flex;
     justify-content: space-between;
+    
 }
 
 .disclaimer-premium .text {
@@ -224,4 +230,10 @@ h1 {
     border-radius: 40px;
     cursor: pointer;
     flex-shrink: 0;
+    transition: background 0.3s ease, color 0.3s ease; /* Transição suave para o efeito hover */
+}
+
+.disclaimer-premium button:hover {
+  background: linear-gradient(to right, #efccb1, #f0886f); /* Gradiente invertido no hover */
+  color: #fff; /* Cor do texto no hover */
 }
