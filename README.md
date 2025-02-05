@@ -1,10 +1,10 @@
 # 🎵🎶 Spotify Clone
 
-Uma réplica da interface do Spotify desenvolvida com HTML, CSS e JavaScript, utilizando uma API local para exibição de artistas e álbuns. Esse projeto foi desenvolvido durante a imersão front-end 2025, promovido pela Alura.
+Uma réplica da interface do Spotify desenvolvida com HTML, CSS e JavaScript, utilizando uma API local para exibição de artistas. Este projeto foi desenvolvido durante a Imersão Front-End 2025, promovido pela escola de tecnologia Alura.
 
 ## ⚠️ Importante: Verifique a Branch Correta
 
-Para garantir que você está acessando a versão completa e finalizada do projeto, certifique-se de estar na **branch padrão**, que é a `projeto-final`.  
+Para garantir que você está acessando a versão completa e finalizada do projeto, certifique-se de estar na **branch padrão**: `projeto-final`.  
 
 Caso o GitHub exiba outra branch por padrão, siga estes passos para mudar para a correta:  
 
@@ -12,15 +12,14 @@ Caso o GitHub exiba outra branch por padrão, siga estes passos para mudar para 
 2. No topo da página, clique no menu suspenso de **branches**.  
 3. Selecione a branch `projeto-final`.  
 
-Agora você estará visualizando o código mais atualizado e completo do projeto. 👾 
+Agora você estará visualizando a versão mais atualizado e completo do projeto. 👾 
 
 ## 🚀 Tecnologias Utilizadas
 
 - HTML5 
 - CSS3
-- JavaScript (Vanilla JS)
+- JavaScript 
 - [JSON Server](https://github.com/typicode/json-server) (para simular uma API local)
-- [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) (para facilitar a execução do projeto no navegador)
 - [Git](https://git-scm.com/) (para controle de versão)
 - [Node.js](https://nodejs.org/) (para gerenciar dependências e rodar scripts)
 
@@ -53,7 +52,7 @@ Agora você estará visualizando o código mais atualizado e completo do projeto
 
 ## 🛠️ Como Rodar o Projeto
 
-Para visualizar e testar esse projeto no seu navegador, siga os passos abaixo:
+Para visualizar e testar este projeto no seu navegador, siga os passos abaixo:
 
 ### 1️⃣ Clonar o Repositório
 ```sh
@@ -75,14 +74,20 @@ json-server --watch api-artists/artists.json --port 3000
 Isso iniciará um servidor local que servirá os dados dos artistas na porta **3000**.
 
 ### 4️⃣ Rodar o Projeto no Navegador
-Você pode abrir o arquivo `index.html` manualmente, eu recomendo utilizar a extensão [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) no VS Code para facilitar:
+Você pode abrir o arquivo `index.html` manualmente, mas eu recomendo utilizar a extensão [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) no VS Code para facilitar:
 
 1. Instale a extensão Live Server no VS Code.
 2. Abra o projeto no VS Code.
 3. Clique com o botão direito no `index.html` e selecione **"Open with Live Server"** ou se preferir clique no botão **"Go live"** no canto direito inferior na tela do Vs Code.
 4. O navegador abrirá automaticamente com o projeto rodando.
 
-## 📸 Demonstração
+## 👀 O que fazer se não tiver o Node.js instalado?
+
+O Node.js é necessário para rodar o JSON Server, que simula a API local dos artistas. Se você não tiver o Node.js instalado, pode baixar e instalar através do site oficial: [Node.js](https://nodejs.org/en)
+
+Caso prefira, **você ainda pode visualizar o projeto**, mas sem a funcionalidade dinâmica dos artistas. Para isso, basta abrir o `index.html` como explicado anteriormente. No entanto, os dados dos artistas não serão carregados corretamente sem a API local em execução.
+
+## 💻 Demonstração
 
 <img src="spotify-imersao/assets/assets/demonstracao/img-projeto1.png" alt="tela inicial do proejeto" width="600">
 
