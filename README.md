@@ -2,6 +2,18 @@
 
 Uma réplica da interface do Spotify desenvolvida com HTML, CSS e JavaScript, utilizando uma API local para exibição de artistas e álbuns. Esse projeto foi desenvolvido durante a imersão front-end 2025, promovido pela Alura.
 
+## ⚠️ Importante: Verifique a Branch Correta
+
+Para garantir que você está acessando a versão completa e finalizada do projeto, certifique-se de estar na **branch padrão**, que é a `projeto-final`.  
+
+Caso o GitHub exiba outra branch por padrão, siga estes passos para mudar para a correta:  
+
+1. Acesse o repositório no GitHub.  
+2. No topo da página, clique no menu suspenso de **branches**.  
+3. Selecione a branch `projeto-final`.  
+
+Agora você estará visualizando o código mais atualizado e completo do projeto. 👾 
+
 ## 🚀 Tecnologias Utilizadas
 
 - HTML5 
