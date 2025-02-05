@@ -1,4 +1,4 @@
-# 🎵 Spotify Clone
+# 🎵🎶 Spotify Clone
 
 Uma réplica da interface do Spotify desenvolvida com HTML, CSS e JavaScript, utilizando uma API local para exibição de artistas e álbuns. Esse projeto foi desenvolvido durante a imersão front-end 2025, promovido pela Alura.
 
@@ -20,8 +20,9 @@ Uma réplica da interface do Spotify desenvolvida com HTML, CSS e JavaScript, ut
 │   │── artists.json
 │
 │── 📂 assets          # Imagens e recursos do projeto
+│   │── 📂 demosntracao
 │   │── 📂 icons
-│   │── 📂 playlist
+|   |── 📂 playlist
 │
 │── 📂 src            
 │   │── 📂 styles      # Arquivos de estilo (CSS)
@@ -40,7 +41,7 @@ Uma réplica da interface do Spotify desenvolvida com HTML, CSS e JavaScript, ut
 
 ## 🛠️ Como Rodar o Projeto
 
-Para visualizar e testar a réplica do Spotify no seu navegador, siga os passos abaixo:
+Para visualizar e testar esse projeto no seu navegador, siga os passos abaixo:
 
 ### 1️⃣ Clonar o Repositório
 ```sh
@@ -107,4 +108,3 @@ Este projeto é apenas para fins educacionais e não possui vínculo com o Spoti
 
 ---
 💡 Desenvolvido por [Ana Luísa](https://github.com/AnaLuisaPS07)
-
