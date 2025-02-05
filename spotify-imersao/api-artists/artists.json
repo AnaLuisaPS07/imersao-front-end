@@ -41,6 +41,72 @@
       "name": "Caetano Veloso",
       "genre": "MPB",
       "urlImg": "https://i.scdn.co/image/ab67616100005174e98de50f36cf1aa4bf047757"
+    },
+    {
+      "id": 8,
+      "name": "Angra",
+      "genre": "Rock",
+      "urlImg": "https://i.scdn.co/image/ab6761610000e5eb66ed9eef4c4f85369167a555"
+    },
+    {
+      "id": 9,
+      "name": "Beyoncé",
+      "genre": "Pop",
+      "urlImg": "https://i.scdn.co/image/ab67616d0000b273a9fd4a0405945cd51e8de130"
+    },
+    {
+      "id": 10,
+      "name": "Gustavo Lima",
+      "genre": "Sertanejo",
+      "urlImg": "https://i.scdn.co/image/ab67616100005174dbfd9763ee6948c110999581"
+    },
+    {
+      "id": 11,
+      "name": "Zezé Di Camargo & Luciano",
+      "genre": "Sertanejo",
+      "urlImg": "https://i.scdn.co/image/ab67616d00001e02e5d001d3110b65584716939a"
+    },
+    {
+      "id": 12,
+      "name": "Anitta",
+      "genre": "Funk",
+      "urlImg": "https://i.scdn.co/image/ab6761610000517403479cd9d2eec574230368d4"
+    },
+    {
+      "id": 13,
+      "name": "Zeca Pagodinho",
+      "genre": "Samba",
+      "urlImg": "https://portaldocase.com.br/storage/uploads/Portals/POTA01/images/zecapagodinho-1734104870.webp"
+    },
+    {
+      "id": 14,
+      "name": "Gilberto Gil",
+      "genre": "MPB",
+      "urlImg": "https://i.scdn.co/image/ab67616100005174df423bfb01afb1cf3d60d61a"
+    },
+    {
+      "id": 15,
+      "name": "Limp Bizkit",
+      "genre": "rock",
+      "urlImg": "https://media.gettyimages.com/id/517647042/pt/foto/fred-durst-of-limp-bizkit-studio-portrait-shot-in-beverley-hills-california-usa-november-1999.jpg?s=612x612&w=gi&k=20&c=cpIDFb1rgH6qQAqHPf0EiESrh_fafIrIX7kV_96kMVQ="
+    },
+    {
+      "id": 16,
+      "name": "Legião Urbana",
+      "genre": "rock",
+      "urlImg": "https://yt3.googleusercontent.com/ytc/AIdro_kVg_SVwjTzp8F6GzVigFtZFtS79T1IjCE4dcluefq5mQ=s900-c-k-c0x00ffffff-no-rj"
+    },
+    {
+      "id": 17,
+      "name": "Metallica",
+      "genre": "rock",
+      "urlImg": "https://i.scdn.co/image/ab6761610000e5eb69ca98dd3083f1082d740e44"
+    },
+    {
+      "id": 18,
+      "name": "The Weeknd",
+      "genre": "pop",
+      "urlImg": "https://i.scdn.co/image/ab6761610000e5eb9e528993a2820267b97f6aae"
     }
   ]
 }

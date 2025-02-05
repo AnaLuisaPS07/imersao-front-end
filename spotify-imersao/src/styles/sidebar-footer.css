@@ -1,5 +1,5 @@
 body {
-    background-color: #B5828C;
+    background-color:  rgb(0, 0, 0);
     font-family: var(--font-dm-sans);
 }
 
@@ -14,28 +14,30 @@ h1 {
    bottom: 0;
    padding: 12px;
    width: 300px;
-   background-color: #B5828C; /* Fundo escuro */
+   background-color:  rgb(0, 0, 0); /* Fundo escuro */
 }
 
 .sidebar__navegation {
-    background-color: #E5989B; /* Fundo mais claro */
+    background-color: rgb(100, 123, 181); /* Fundo mais claro */
     border-radius: 8px;
     padding: 16px 0 0 16px;
-    border-right: 3px solid #FFB4A2; /* Contorno ao redor da sidebar */
+    border: 3px solid #FFB4A2; /* Contorno ao redor da sidebar */
 }
 
 .sidebar__navegation .logo {
-    background: #FFB4A2;
     display: flex;
-    border-radius: 8px;
-    justify-content: center;
     align-items: center;
-    padding: 16px;
-    width: 250px;
-    height: 60px;
-    max-width: 100%;
-    max-height: 100%;
-    
+    justify-content: center;
+    gap: 10px; /* Espaçamento interno */
+    background: linear-gradient(to right, rgb(114, 203, 186), rgb(173, 122, 211), rgb(78, 100, 155), rgb(190, 82, 106));
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 8px 0px;
+    padding: 16px 20px;
+    border-radius: 10px;
+    width: calc(100% - 6px); /* Ajustando para respeitar as bordas */
+    box-sizing: border-box; /* Mantém tudo dentro do espaço definido */
 }
 
 .sidebar__navegation .logo img {
@@ -60,7 +62,7 @@ h1 {
 
 .library {
     border: 3px solid #FFB4A2; /* Contorno ao redor da library */
-    background-color: #E5989B; /* Fundo mais claro */
+    background-color:   rgb(100, 123, 181); /* Fundo mais claro */
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
@@ -109,7 +111,7 @@ h1 {
     align-items: flex-start;
     justify-content: space-between;
     gap: 20px;
-    background-color: #FFB4A2; /* Fundo mais claro */
+    background: linear-gradient(to right, rgb(114, 203, 186), rgb(173, 122, 211), rgb(78, 100, 155), rgb(190, 82, 106)); /* Fundo mais claro */
     color: #ffffff;
     font-weight: 600;
     font-size: 14px;
@@ -140,8 +142,9 @@ h1 {
 .section-playlist__content .button {
     display: flex;
     justify-content: center;
-    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradiente para o botão */
-    color: #000000;
+    background: linear-gradient(to right, #f0886f, #efccb1); /* Gradiente para o botão */
+    border: 2px solid black; /* Adiciona um contorno preto */
+    color: #4d4a4a;
     border-radius: 20px;
     font-size: 12px;
     font-weight: 700;
@@ -149,7 +152,7 @@ h1 {
     text-transform: none;
     padding: 10px;
     margin-top: 12px;
-    border: 0px;
+    
     width: 113px;
     cursor: pointer;
 }
@@ -187,7 +190,7 @@ h1 {
     bottom: 0;
     left: 0;
     right: 0;
-    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    background: linear-gradient(to right, rgb(114, 203, 186), rgb(173, 122, 211), rgb(78, 100, 155), rgb(190, 82, 106));
     padding: 15px 40px;
     display: flex;
     justify-content: space-between;
@@ -212,12 +215,12 @@ h1 {
 }
 
 .disclaimer-premium button {
-    background-color: #ffffff;
-    color: #000000;
+    background: linear-gradient(to right, #f0886f, #efccb1);
+    color: #4d4a4a;
     font-size: 16px;
     font-weight: bold;
     padding: 14px 30px;
-    border: 0px;
+    border: 2px solid black; /* Adiciona um contorno preto */
     border-radius: 40px;
     cursor: pointer;
     flex-shrink: 0;

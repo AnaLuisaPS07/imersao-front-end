@@ -5,8 +5,8 @@
   height: 100vh;
   margin-left: 320px;
   margin-right: 56px;
-  background-color: #E5989B; /* Fundo escuro */
-  border-right: 3px solid #FFB4A2; /* Contorno ao redor da página */
+  background-color:   rgb(100, 123, 181); /* Fundo escuro */
+  border: 2px solid #FFB4A2; /* Contorno ao redor da página */
   border-radius: 10px; /* Bordas arredondadas */
   padding: 20px; /* Espaçamento interno */
   box-shadow: 0 4px 10px rgba(194, 91, 160, 0.5); /* Sombra para profundidade */
@@ -19,7 +19,7 @@
   padding: 16px;
   margin: 10px;
   border-radius: 8px;
-  background-color: #FFB4A2; /* Fundo mais claro para o header */
+  background: linear-gradient(to right, rgb(114, 203, 186), rgb(173, 122, 211), rgb(78, 100, 155), rgb(190, 82, 106)); /* Fundo mais claro para o header */
 }
 
 .header__navigation .navigation {
@@ -40,7 +40,7 @@
   width: 32px;
   height: 32px;
   background: var(--bg-icon);
-  background-color: var(--bg-arrow-color);
+  background-color: #e59c8a;
   border-radius: 50%;
   border: none;
   cursor: pointer;
@@ -57,16 +57,13 @@
   width: 364px;
   height: 48px;
   margin-left: 8px;
-  background-color: #242424;
+  background-color: #e59c8a;
   border-radius: 500px;
   border: 1px solid transparent;
   flex-grow: 1;
   margin: 0 16px;
 }
 
-<<<<<<< Updated upstream
-  /* SCROLL */
-=======
 .header__search img {
   width: 16px;
   height: 16px;
@@ -85,7 +82,7 @@
 }
 
 .header__login .subscribe {
-  color: #ff7e5f;
+  color: #4d4a4a;
   font-size: 16px;
   font-weight: 700;
   background-color: transparent;
@@ -97,12 +94,12 @@
 .header__login .login {
   width: 100px;
   height: 48px;
-  color: #000;
+  color: #4d4a4a;
   font-size: 16px;
   font-weight: 700;
   border-radius: 40px;
-  border: none;
-  background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradiente para o botão */
+  border: 2px solid black; /* Adiciona um contorno preto */
+  background: linear-gradient(to right, #f0886f, #efccb1); /* Gradiente para o botão */
   cursor: pointer;
 }
 
@@ -139,7 +136,6 @@
 }
 
 /* SCROLL */
->>>>>>> Stashed changes
 .offer__scroll-container {
   max-height: 43vh;
   margin: 24px;
@@ -167,8 +163,8 @@
 
 .cards {
   position: relative;
-  width: 160px;
-  height: 160px;
+  width: 210px;
+  height: 170px;
   overflow: hidden;
   border-radius: 8px;
 }
@@ -183,49 +179,49 @@
 
 /* COLOR CARDS */
 .card1 {
-  background-color: rgb(114, 203, 186);
+  background-color: rgb(83, 204, 182);
 }
 .card2 {
-  background-color: rgb(173, 122, 211);
+  background-color: rgb(164, 104, 210);
 }
 .card3 {
-  background: rgb(78, 100, 155);
+  background: rgb(66, 91, 153);
 }
 .card4 {
-  background: rgb(190, 82, 106);
+  background: rgb(193, 66, 93);
 }
 .card5 {
   background: rgb(102, 11, 34);
 }
 .card6 {
-  background: rgb(83, 122, 161);
+  background: rgb(66, 111, 157);
 }
 .card7 {
-  background: rgb(142, 102, 172);
+  background: rgb(135, 82, 175);
 }
 .card8 {
-  background: rgb(152, 228, 143);
+  background: rgb(136, 219, 127);
 }
 .card9 {
-  background: rgb(77, 96, 143);
+  background: rgb(39, 62, 120);
 }
 .card10 {
-  background: rgb(242, 131, 142);
+  background: rgb(232, 106, 119);
 }
 .card11 {
-  background: rgb(119, 89, 119);
+  background: rgb(120, 73, 120);
 }
 .card12 {
   background: rgb(237, 118, 68);
 }
 .card13 {
-  background: rgb(190, 124, 63);
+  background: rgb(173, 110, 52);
 }
 .card14 {
-  background: rgb(114, 138, 178);
+  background: rgb(70, 97, 145);
 }
 .card15 {
-  background: rgb(154, 116, 180);
+  background: rgb(130, 88, 158);
 }
 /* FIM COLOR CARDS */
 
@@ -258,7 +254,7 @@
 }
 
 .artist-card {
-  background: #181818;
+  background: rgba(138, 214, 200, 0.757);
   border-radius: 8px;
   -ms-flex: 1;
   flex: 1;
@@ -270,7 +266,7 @@
 }
 
 .artist-card:hover {
-  background-color: #252525;
+  background-color: rgba(52, 185, 160, 0.757);
 }
 
 .card-img {
@@ -311,6 +307,7 @@
   font-size: 16px;
   font-weight: 700;
   padding-block-end: 8px;
+  color: #fff;
 }
 
 .artist-categorie {
